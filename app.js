@@ -9,7 +9,6 @@ const pickupboy=require("./models/PickUser");
 const ScrapItem = require('./models/ScrapItem'); // Adjust path if needed
 // const bodyParser = require('body-parser');
 
-
 const app = express();
 
 app.set("view engine", "ejs");
